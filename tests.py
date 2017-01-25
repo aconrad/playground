@@ -6,4 +6,4 @@ def test_person():
 def test_person_age():
     from playground.models import Person
     person = Person("muzzy", 1980)
-    assert person.age == 36
+    assert person.age == 37
